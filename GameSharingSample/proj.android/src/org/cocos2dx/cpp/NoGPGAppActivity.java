@@ -1,9 +1,6 @@
 /****************************************************************************
-Copyright (c) 2008-2010 Ricardo Quesada
-Copyright (c) 2010-2012 cocos2d-x.org
-Copyright (c) 2011      Zynga Inc.
-Copyright (c) 2013-2014 Chukong Technologies Inc.
- 
+Copyright (c) 2014 Adrian Dawid
+
 http://www.cocos2d-x.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,6 +24,16 @@ THE SOFTWARE.
 package org.cocos2dx.cpp;
 
 import org.cocos2dx.lib.Cocos2dxActivity;
+import de.adrian.dawid.GameSharingSample.*;
+import android.os.Bundle;
+import com.google.android.gms.games.Games;
+import android.content.Context;
+import android.util.Log;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
+import android.content.Intent;
+import android.app.Activity;
 
-public class AppActivity extends Cocos2dxActivity {
+public class NoGPGAppActivity extends Cocos2dxActivity{
+
 }

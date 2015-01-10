@@ -45,3 +45,9 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+
+#Android
+*.d
+*.class
+*.apk
+*.jar
